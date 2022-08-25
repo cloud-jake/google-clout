@@ -1,0 +1,20 @@
+BQ_DATASET=flow_logs
+VPC=
+SOURCEVM=
+DESTINATIONVM=
+
+SUBNET1=subnet1
+SUBNET2=subnet2
+
+
+
+
+REGION=`gcloud compute networks subnets list --network $VPC | grep REGION | sort -u | awk -F " " '{print $2 }'`
+PROJECT=`gcloud config get-value project`
+
+SOURCEVM_ZONE=`gcloud compute instances list --filter="name=${SOURCEVM}" | grep ZONE | awk -F " " '{ print $2 }'`
+DESTINATIONVM_ZONE=`gcloud compute instances list --filter="name=${DESTINATIONVM}" | grep ZONE | awk -F " " '{ print $2 }'`
+
+echo "SourceVM ZONE = ${SOURCEVM_ZONE}"
+echo "DestinationVM ZONE = ${DESTINATIONVM_ZONE}"
+

@@ -1,0 +1,16 @@
+  {
+    "tables": [
+      {
+        "table_name": "YYYYY",
+        "file_patterns": [
+          "gs://csv-startrek-XXXXX/startrek.csv"
+        ],
+        "columns": [
+          {"column_name": "ShipName", "type_name": "STRING"},
+          {"column_name": "Registry", "type_name": "STRING"},
+          {"column_name": "ShipClass", "type_name": "STRING"},
+          {"column_name": "Description", "type_name": "STRING"}
+        ]
+      }
+    ]
+  }
