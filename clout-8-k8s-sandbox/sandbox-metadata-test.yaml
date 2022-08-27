@@ -1,0 +1,21 @@
+  # sandbox-metadata-test.yaml
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: regular-app
+    labels:
+      app: regular-app
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: regular-app
+    template:
+      metadata:
+        labels:
+          app: regular-app
+      spec:
+        containers:
+        - name: regular-app
+          image: busybox
+          command: ["/bin/sleep","10000"]
