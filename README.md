@@ -2,6 +2,7 @@
 Solutions for Google Clout Challenges
 
 ## #GoogleClout Set 2, (1/10)
+2022-07-06
 ### Import Data into a Cloud Spanner Database<br>
 https://www.cloudskillsboost.google/quests/215<br>
 
@@ -35,8 +36,8 @@ https://www.cloudskillsboost.google/quests/222<br>
 https://www.cloudskillsboost.google/quests/224<br>
 
 ## #GoogleClout Set 10 (9/10)
-### TBD<br>
-https://www.cloudskillsboost.google/quests/NNN<br>
+### Trigger a Cloud Run Workflow<br>
+https://www.cloudskillsboost.google/quests/225<br>
 
 ## #GoogleClout Set 11 (10/10)
 ### TBD<br>
