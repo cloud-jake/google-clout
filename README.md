@@ -57,6 +57,6 @@ https://www.cloudskillsboost.google/quests/225<br>
 
 ## #GoogleClout Set 11 (10/10)
 2022-09-07
-### TBD<br>
-https://www.cloudskillsboost.google/quests/NNN<br>
+### Deploy a Cloud Endpoints API with the Extensible Service Proxy<br>
+https://www.cloudskillsboost.google/quests/226<br>
 <hr>
